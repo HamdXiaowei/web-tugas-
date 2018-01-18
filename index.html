@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KOLEKSI ANIME</title>
+		<style type="text/css">
+			header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #666666;
+				background-color: #f9f8f6;
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.wrapper {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+			header {
+				height: 160px;
+				background-image: url(fdw.jpg);}
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.courses {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Koleksi Anime</h1>
+				<nav>
+					<ul>
+						<li><a href="" class="current">beranda</a></li>
+						<li><a href="">daftar anime</a></li>
+						<li><a href="">terbaru</a></li>
+						<li><a href="">favorit</a></li>
+						<li><a href="">tentang</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="courses">
+				<article>
+					<figure>
+						<img src="hatake.jpg" alt="kakashi" />
+						<figcaption>kakashi</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Kakashi</h2>
+						<h3>hatake kakashi ninja tercerdas</h3>
+					</hgroup>
+					<p>Naruto adalah sebuah anime aliran ninja yang diangkat dari komik manga..</p>
+				</article>    
+				<article>
+					<figure>
+						<img src="hatake.jpg" alt="naruto" />
+						<figcaption>Naruto</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Naruto</h2>
+						<h3>Kisah seorang ninja yang punya ambisi besar</h3>
+					</hgroup>
+					<p>Naruto adalah sebuah anime aliran ninja yang diangkat dari komik manga.</p>
+				</article>    
+			</section>
+			
+			<aside>
+				<section class="popular-recipes">
+					<h2>Anime Populer</h2>
+					<a href="">Adventures</a>
+					<a href="">Action</a>
+					<a href="">Fantasy</a>
+					<a href="">Samurai</a>
+				</section>
+				<section class="contact-details">
+					<h2>Kontak</h2>
+					<p>Koleksi Anime<br />
+						Toku-Toku JAPANESE
+				</section>
+					<section class="form">
+					<tr align="left">
+							<td width="200px" height="200" bgcolor="#FOF8FF" align="center">form</td>
+
+							<td height="200" bgcolor="#FOF8FF">
+							<form action="output.html">
+  							Nama Lengkap:<input type="text" name="Nama Lengkap" size="20px" placeholder="Masukan nama lengkap"  maxlength="30">
+  							<br><br>
+  							Nama Panggilan:<input type="text" name="Nama Panggilan" placeholder="Masukan nama panggilan"  size="20" maxlength="10">
+  							<br><br>
+  							Jenis Kelamin:
+  							<input type="radio" name="gender" value="male" checked> Laki-laki
+							<input type="radio" name="gender" value="female"> Perempuan
+							<br><br>
+							TTL:
+							<input type="text" placeholder="Tempat lahir...">
+							<input type="date" name="TL">
+							<br><br>
+							Alamat:<input type="text" name="alamat" size="20" placeholder="Masukan alamat anda">
+  							<br><br>
+
+							Anime:
+  						<select name="cars">
+    					 <option value="Adventures">Adventures</option>
+    					 <option value="Action">Action</option>
+    					 <option value="Fantasy">Fantasy</option>
+    					 <option value="Comedy">Comedy</option>
+    					 <option value="Ninja">Ninja</option>   					 
+  						</select>
+  						<br>
+  						Alasan suka anime tersebut:<br>
+  						 <textarea name="message" rows="10" cols="30"></textarea>
+  						 <br>
+  							<button onclick="myFunction()">KIRIM</button>
+						<p id="k"></p>
+						<script>
+						function myFunction() {
+					    var txt;
+    					if (confirm("Data yang anda masukan akan di kirim ke server anime ku") == true) {
+        				txt = "Data anda telah dikirim";
+    					} else {
+        				txt = "prngiriman data di batalkan";
+    					}
+					    document.getElementById("Kirim").innerHTML = txt;
+						}
+						</script>
+
+							</form>
+
+							</td>
+				</section>
+			</aside>
+			
+			<footer>
+				&copy; 2017 Koleksi Anime HAMDI SISKOM
+			</footer>
+		</div>
+	</body>
+</html>
